@@ -1,0 +1,100 @@
+* {
+    font-family: monospace;
+}
+
+h1 {
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+h2 {
+    font-size: 1.3em;
+    font-weight: lighter;
+    margin: 0;
+}
+
+h3 {
+    font-size: 1em;
+    margin: 0px;
+}
+
+p {
+    font-size: 0.9em;
+    margin: 0px;
+}
+
+#app {
+    display: flex;
+    flex-direction: row;
+}
+
+.craft {
+    border: 1px solid black;
+    margin: 50px;
+    padding: 5px;
+    width: 250px;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.project {
+    border: 1px solid black;
+    background-color: lightgray;
+    width: auto;
+    height: auto;
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    padding: 5px;
+    margin: 0 0 5px 0;
+}
+
+.lineCentered {
+    margin: 0 0 5px 0;
+    display: flex;
+}
+
+.faint {
+    font-size: 0.8em;
+    color: gray;
+    font-style: italic;
+    margin: 0;
+    display: inline-block;
+}
+
+.lineItem {
+    width: 100%;
+    margin: 0 0 5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.lineItem button{
+    top: 0;
+    padding: 0;
+    font-size: 0.8em;
+    vertical-align: top;
+    width: 25px;
+}
+
+.menuHeader {
+    font-weight: bold;
+    color: black;
+    text-decoration: none;
+}
+
+.menuHeader:hover{
+    background-color: whitesmoke;
+}
+
+.menu {
+    margin-left: 5%;
+    width: 95%;
+    display: none;
+    background-color: whitesmoke;
+}
